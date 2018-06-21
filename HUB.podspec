@@ -15,19 +15,18 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "B"
-  s.version      = "0.0.1"
+  s.name         = "HUB"
+  s.version      = "0.1.1"
   s.summary      = "A framework test."
 
   s.description  = <<-DESC
   A framework test...
                    DESC
 
-  s.homepage     = "https://gitlab.com/jewelz/framework_sample"
-  s.license      = "MIT (example)"
+  s.homepage     = "https://github.com/hujewelz/framework_sample"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   s.author             = { "huluobo" => "hujewelz@163.com" }
   s.platform     = :ios, "9.0"
-  s.source       = { :git => "https://gitlab.com/jewelz/framework_sample.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/hujewelz/framework_sample.git", :tag => "#{s.version}" }
   s.vendored_frameworks = 'B.framework'
 end
